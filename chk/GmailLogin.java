@@ -23,7 +23,7 @@ public class GmailLogin {
 		driver.findElement(By.id("signIn")).click();
 		
 		// 2. Go to Inbox.........................
-		//driver.findElement(By.xpath("//a[@class='J-Ke n0 aBU']/title[@")).click();
+		driver.findElement(By.xpath("//div[@class='TN GLujEb']")).click();
 		
 		// 3. Compose a new mail..................
 		 driver.findElement(By.xpath("//div[text()='COMPOSE']")).click();
